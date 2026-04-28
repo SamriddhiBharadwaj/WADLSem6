@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>
+    $(document).on("mobileinit", function () {
+        $.mobile.ajaxEnabled = false;
+    });
+</script>
+</head>
+
+<body>
+
+<div data-role="page">
+
+    <div data-role="header">
+        <h1>Register</h1>
+    </div>
+
+    <div data-role="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.html" class="ui-btn-active">Register</a></li>
+        </ul>
+    </div>
+
+    <div role="main" class="ui-content">
+
+        <h3>Registration Form</h3>
+
+        <form>
+            <label for="name">Username:</label>
+            <input type="text" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+
+            <input type="submit" value="Register">
+        </form>
+
+    </div>
+
+    <div data-role="footer">
+        <h4>Footer</h4>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script> $(document).on("mobileinit", function () {
+        $.mobile.ajaxEnabled = false;
+    });
+</script>
+</head>
+
+<body>
+
+<div data-role="page">
+
+    <!-- Header -->
+    <div data-role="header">
+        <h1>My Website</h1>
+    </div>
+
+    <!-- Navbar -->
+    <div data-role="navbar">
+        <ul>
+            <li><a href="index.html" class="ui-btn-active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <!-- Content -->
+    <div role="main" class="ui-content">
+        <h3 style="text-align:center;">Image Gallery</h3>
+
+        <div style="text-align:center;">
+            <img src="https://picsum.photos/200/150?1">
+            <img src="https://picsum.photos/200/150?2">
+            <img src="https://picsum.photos/200/150?3"><br><br>
+
+            <img src="https://picsum.photos/200/150?4">
+            <img src="https://picsum.photos/200/150?5">
+            <img src="https://picsum.photos/200/150?6">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div data-role="footer">
+        <h4>Footer</h4>
+    </div>
+
+</div>
+
+</body>
+</html>

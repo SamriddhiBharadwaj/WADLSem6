@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Nexus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" style="max-width: 600px;">
+    <h1>Profile</h1>
+    <p class="subtitle">System Identity Data</p>
+
+    <div id="status" class="status-msg"></div>
+
+    <div class="profile-info" id="profileContent">
+        <div class="info-item">
+            <div class="info-label">Full Name</div>
+            <div class="info-value" id="name">Loading...</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Phone</div>
+            <div class="info-value" id="phone">Loading...</div>
+        </div>
+        <div class="info-item full-width">
+            <div class="info-label">Email Address</div>
+            <div class="info-value" id="email">Loading...</div>
+        </div>
+        <div class="info-item full-width">
+            <div class="info-label">Address</div>
+            <div class="info-value" id="address">Loading...</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">City</div>
+            <div class="info-value" id="city">Loading...</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Interests</div>
+            <div class="info-value" id="hobbies">Loading...</div>
+        </div>
+        <div class="info-item full-width">
+            <div class="info-label">Gender</div>
+            <div class="info-value" id="gender">Loading...</div>
+        </div>
+    </div>
+
+    <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+        <button onclick="logout()" style="background: rgba(239, 68, 68, 0.1); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.2); box-shadow: none;">Sign Out</button>
+        <button onclick="window.location.href='index.html'">Portal Home</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Nexus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Initialize</h1>
+    <p class="subtitle">Join our exclusive ecosystem</p>
+
+    <div id="status" class="status-msg"></div>
+
+    <div class="form-group">
+        <input id="name" placeholder="Full Name" type="text">
+    </div>
+    <div class="form-group">
+        <input id="phone" placeholder="Phone Number" type="tel">
+    </div>
+    <div class="form-group">
+        <input id="email" placeholder="Email Address" type="email">
+    </div>
+    <div class="form-group">
+        <input id="password" type="password" placeholder="Secure Password">
+    </div>
+    <div class="form-group">
+        <textarea id="address" placeholder="Postal Address" rows="2"></textarea>
+    </div>
+    <div class="form-group">
+        <input id="city" placeholder="City" type="text">
+    </div>
+    <div class="form-group">
+        <input id="hobbies" placeholder="Hobbies & Interests" type="text">
+    </div>
+
+    <div class="radio-group">
+        <label class="radio-option">
+            <input type="radio" name="gender" value="Male"> Male
+        </label>
+        <label class="radio-option">
+            <input type="radio" name="gender" value="Female"> Female
+        </label>
+    </div>
+
+    <button onclick="register()" id="regBtn">Create Account</button>
+
+    <p class="footer-text">Already have an account? <a href="login.html">Sign In</a></p>
+    <p class="footer-text"><a href="index.html">← Back to Portal</a></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
