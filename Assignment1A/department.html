@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Departments</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f4f6f9;
+        }
+
+        .sidebar {
+            height: 100vh;
+            background: #212529;
+        }
+
+        .sidebar a {
+            color: #adb5bd;
+            text-decoration: none;
+            padding: 12px;
+            display: block;
+        }
+
+        .sidebar a.active,
+        .sidebar a:hover {
+            background: #0d6efd;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="col-md-2 sidebar p-3">
+                <h4 class="text-center text-white mb-4">HR SYSTEM</h4>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="employee.html">Employees</a>
+                <a class="active" href="department.html">Departments</a>
+            </div>
+
+
+            <div class="col-md-10 p-4">
+                <h2>Department Overview</h2>
+
+                <div class="row g-4 mt-3">
+                    <div class="col-md-3">
+                        <div class="card shadow-sm text-center">
+                            <div class="card-body">
+                                <i class="fa fa-laptop fa-2x text-primary"></i>
+                                <h5 class="mt-2">IT</h5>
+                                <p>40 Employees</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card shadow-sm text-center">
+                            <div class="card-body">
+                                <i class="fa fa-users fa-2x text-success"></i>
+                                <h5 class="mt-2">HR</h5>
+                                <p>15 Employees</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card shadow-sm text-center">
+                            <div class="card-body">
+                                <i class="fa fa-coins fa-2x text-warning"></i>
+                                <h5 class="mt-2">Finance</h5>
+                                <p>25 Employees</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card shadow-sm text-center">
+                            <div class="card-body">
+                                <i class="fa fa-chart-bar fa-2x text-danger"></i>
+                                <h5 class="mt-2">Marketing</h5>
+                                <p>18 Employees</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
